@@ -30,6 +30,9 @@ jobs:
 
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # To push a branch
+      pull-requests: write  # To create a PR from that branch
     needs: check
     if: github.event_name == 'push'
     steps:
