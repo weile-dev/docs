@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'WeiLe文档中心',
-  tagline: 'WeiLe 建站文档中心',
+  title: '微乐文档中心',
+  tagline: '微乐文档中心',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -63,7 +63,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'WeiLe文档中心',
+        title: '微乐文档中心',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -113,7 +113,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} WeiLe建站, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 微乐建站, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
