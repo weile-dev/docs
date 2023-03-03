@@ -63,7 +63,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'WeiLe文档中心',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -77,7 +77,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/weile-dev',
             label: 'GitHub',
             position: 'right',
           },
@@ -93,23 +93,27 @@ const config = {
                 label: '官网',
                 to: 'https://weile.run',
               },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
               {
                 label: 'Blog',
                 to: '/blog',
               },
+            ],
+          },
+          {
+            title: '社区',
+            items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'GitHub组织',
+                href: 'https://github.com/weile-dev',
+              },
+              {
+                label: 'GitHub Issues',
+                href: 'https://github.com/weile-dev/docs/issues',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} WeiLe建站, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
