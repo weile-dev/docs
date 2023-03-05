@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: '代码开源',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        我们的所有代码开源在GitHub上，欢迎您参与进来一起完善
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '主题系统',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+          完善的主题系统,支持自定义配置,在线安装、切换、编辑、预览主题,无需开发工具,在后台即可创作专属于你的主题
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '插件系统',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+          强大的扩展插件功能,更近一步满足您的需求,插件开发简单,与开发SpringBoot程序基本一致,无需学习成本
       </>
     ),
   },

@@ -6,12 +6,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '微乐文档中心',
-  tagline: '微乐文档中心',
+  title: '微乐建站',
+  tagline: '微乐建站',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://docs.weile.run',
+  url: 'https://www.weile.run',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -63,7 +63,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: '微乐文档中心',
+        title: '微乐建站',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -91,7 +91,7 @@ const config = {
             items: [
               {
                 label: '官网',
-                to: 'https://weile.run',
+                to: 'https://www.weile.run',
               },
               {
                 label: 'Blog',
