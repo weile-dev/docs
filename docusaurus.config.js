@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '微乐建站',
-  tagline: '微乐建站',
+  title: '微乐建站工具',
+  tagline: '基于RuoYi-Vue和PF4J的开源建站工具',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -63,7 +63,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: '微乐建站',
+        title: '微乐',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -73,9 +73,9 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: '文档',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '博客', position: 'left'},
           {
             href: 'https://github.com/weile-dev',
             label: 'GitHub',

@@ -4,11 +4,11 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: '代码开源',
+    title: '主流技术栈',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        我们的所有代码开源在GitHub上，欢迎您参与进来一起完善
+        使用时下流行的SpringBoot，Vue，Element UI等技术栈
       </>
     ),
   },
@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-          强大的扩展插件功能,更近一步满足您的需求,插件开发简单,与开发SpringBoot程序基本一致,无需学习成本
+          强大的扩展插件功能,更近一步满足您的需求,插件开发简单,无需学习成本
       </>
     ),
   },
