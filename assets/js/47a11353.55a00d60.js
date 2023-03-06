@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[821],{9217:e=>{e.exports=JSON.parse('{"title":"\u8d77\u6b65","slug":"/category/\u8d77\u6b65","permalink":"/docs/category/\u8d77\u6b65","navigation":{"previous":{"title":"\u7b80\u4ecb","permalink":"/docs/"},"next":{"title":"\u5f00\u59cb\u4e0a\u624b","permalink":"/docs/getting-started/install"}}}')}}]);
