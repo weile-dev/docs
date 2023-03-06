@@ -65,7 +65,7 @@ const config = {
       navbar: {
         title: '微乐',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Site Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -75,7 +75,6 @@ const config = {
             position: 'left',
             label: '文档',
           },
-          {to: '/blog', label: '博客', position: 'left'},
           {
             href: 'https://github.com/weile-dev',
             label: 'GitHub',
@@ -91,19 +90,19 @@ const config = {
             items: [
               {
                 label: '官网',
-                to: 'https://www.weile.run',
+                to: '/',
               },
               {
-                label: 'Blog',
-                to: '/blog',
-              },
+                label: '文档',
+                to: '/docs',
+              }
             ],
           },
           {
             title: '社区',
             items: [
               {
-                label: 'GitHub组织',
+                label: 'GitHub 组织',
                 href: 'https://github.com/weile-dev',
               },
               {
