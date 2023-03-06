@@ -22,12 +22,32 @@ const sidebars = {
     'intro',
     {
       type: "category",
-      label: "开发者指南",
+      label: "起步",
       link: {
         type: "generated-index",
       },
       items: [
         "getting-started/install",
+      ],
+    },
+    {
+      type: "category",
+      label: "用户指南",
+      link: {
+        type: "generated-index",
+      },
+      items: [
+        "user-guide/plugins",
+      ],
+    },
+    {
+      type: "category",
+      label: "开发者指南",
+      link: {
+        type: "generated-index",
+      },
+      items: [
+        "developer-guide/plugin/introduction",
       ],
     },
   ],
